@@ -1,0 +1,3 @@
+---
+:api_endpoint: 'http://HOSTNAME/api/v4'
+:access_token: 'YOUR ACCESS TOKEN'
