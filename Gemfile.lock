@@ -1,7 +1,8 @@
-PATH
-  remote: /home/shoshoi/repositories/gitlab
+GIT
+  remote: https://github.com/shoshoi/gitlab.git
+  revision: fbceff5130a5ff718d3574f92d5006acffc3f7ae
   specs:
-    gitlab (4.20.5)
+    gitlab (4.19.0)
       httparty (~> 0.20)
       terminal-table (>= 1.5.1)
 
