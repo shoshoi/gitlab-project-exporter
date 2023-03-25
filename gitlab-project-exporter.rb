@@ -33,10 +33,10 @@ OptionParser.new do |opts|
     end
 end.parse!
 
-puts options[:group]
-
-output_dir = options[:output_dir] || '.'
+output_dir = options[:output_dir] || './out/'
 serach_group = options[:group]
+
+Dir.mkdir(output_dir) unless Dir.exist?(output_dir)
 
 # Load previous progress if exists
 progress = {}
